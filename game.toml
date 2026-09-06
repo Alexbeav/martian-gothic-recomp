@@ -1,0 +1,44 @@
+
+[game]
+name = "Martian Gothic"
+id = "SLES-01350"
+players = 1
+exe = "disc/SLES_013.50"
+disc = "disc/Martian Gothic - Unification (Europe) (En,Fr,Es,It).cue"
+load_address = "0x80010000"
+entry_pc = "0x800DA2CC"
+text_size = "0x00169000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Martian Gothic - Unification (Europe) (En,Fr,Es,It).bin"
+cue_name = "Martian Gothic - Unification (Europe) (En,Fr,Es,It).cue"
+boot_exe = "SLES_013.50"
+known_sizes = [660582720]
+known_md5 = ["8d7ed70b84d1a39952d913caa3412a5f"]
+known_sha1 = ["7ac0f3769ec927e7d69b3d22e9c6b79e6804629e"]
+known_crc32 = ["5ba9ffcc"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Martian Gothic Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "de5a8a526a9c6a5010eb8422edcf64f289a5ab7841df8b8224e6957db9d4820f"

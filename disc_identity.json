@@ -1,0 +1,24 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Martian Gothic - Unification (Europe) (En,Fr,Es,It).cue",
+      "bin_name": "Martian Gothic - Unification (Europe) (En,Fr,Es,It).bin",
+      "size": 660582720,
+      "md5": "8d7ed70b84d1a39952d913caa3412a5f",
+      "sha1": "7ac0f3769ec927e7d69b3d22e9c6b79e6804629e",
+      "crc32": "5ba9ffcc",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Martian Gothic - Unification (Europe) (En,Fr,Es,It).bin",
+          "size": "660582720",
+          "crc": "5ba9ffcc",
+          "md5": "8d7ed70b84d1a39952d913caa3412a5f",
+          "sha1": "7ac0f3769ec927e7d69b3d22e9c6b79e6804629e"
+        }
+      ]
+    }
+  ]
+}
